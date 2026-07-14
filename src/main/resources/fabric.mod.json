@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "renderdistancemacro",
+  "version": "${version}",
+  "name": "Render Distance Macro",
+  "description": "Quickly flash render distance to 2 and back with a keybind.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.renderdistancemacro.RenderDistanceMacroClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
